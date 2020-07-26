@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dashboardActivity"
+    android:background="@drawable/cobaaterusss"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/index" />
+
+    <Button
+        android:layout_width="340dp"
+        android:id="@+id/Button1"
+        android:layout_height="70dp"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold|italic"
+        android:layout_gravity="center_horizontal"
+        android:text="Pendaftaran TV Kabel Berlangganan " />
+    <Button
+        android:layout_width="290dp"
+        android:id="@+id/Button2"
+        android:layout_height="60dp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="10dp"
+        android:text="Keluhan"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:id="@+id/Button3"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:text="Informasi"
+        android:textStyle="bold|italic"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
